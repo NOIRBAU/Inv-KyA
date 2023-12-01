@@ -1,7 +1,7 @@
 :root {
     --light-color1: #F7F0DE;
     --color1: #D9BD8B;
-    --color1a: rgb(124, 98, 159);
+    --color1a: #53403A;
     --color2: rgb(162, 171, 108);
     --color3: rgb(94,85,94);
     --dark-color: #371F76;
@@ -22,6 +22,9 @@ body {
 }
 p {
     font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: var(--color1a);
 }
 a {
     text-decoration: none;
@@ -58,6 +61,7 @@ header::before {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, .1);
+    background-image: url(./assets/63.png);
     z-index: -1;
 }
 .portada__coverNav {
@@ -189,7 +193,39 @@ header::before {
     margin: 0 auto;
 }
 
+/*AUDIO*/
+.audioContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url(./assets/62.png);
+    display: flex;
+    justify-content: center;
+}
+audio {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: var(--light-color1);
+}
 
+/* SECCION RELOJ */
+.seccionReloj {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url(./assets/61.png);
+    background-size: cover;
+}
+.izqCont {
+    width: 45%;
+}
+.izqCont img {
+    width: 80%;
+}
 /* BREAK POINTS */
 
 @media only screen and (max-width: 768px) {
@@ -231,7 +267,7 @@ header::before {
         width: 100%;
         height: 100%;
         background-image: url(./assets/portada1.png);
-        background-position: center -30px;
+        background-position: center -40px;
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0 auto;
