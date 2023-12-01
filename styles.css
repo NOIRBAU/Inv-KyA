@@ -271,7 +271,50 @@ audio::-webkit-media-controls-play-button,
     background-color: var(--color1);
     color: var(--color1a);
 }
+/* FRASE */
+.frase {
+    max-width: 1200px;
+    min-height: 50px;
+    background-image: url(./assets/63.png);
+    margin: 0 auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textoFrase {
+    color: #fbfcfc;
+}
+.frase img {
+    width: 50px;
+    height: 50px;
+    margin: 5px 0;
+}
 
+/* HIJOS */
+.padres {
+    width: 1200px;
+    height: auto;
+    background-image: url(./assets/60.png);
+    margin: 0 auto;
+    padding: 40px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.padresNombres {
+    font-family: 'Alice', serif;
+    font-weight: normal;
+    font-size: 19px;
+    padding: 5px 0;
+}
+.padres img {
+    width: 300px;
+    height: 170px;
+    margin: 0 auto;
+}
 /* BREAK POINTS */
 
 @media only screen and (max-width: 768px) {
@@ -341,6 +384,7 @@ audio::-webkit-media-controls-play-button,
         justify-content: center;
         align-items: center;
         padding-top: 30px;
+        margin-top: 10px;
     }
     .derCont {
         width: 90%;
