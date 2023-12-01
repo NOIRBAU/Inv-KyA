@@ -219,6 +219,10 @@ audio::-webkit-media-controls-play-button,
     margin: 0 auto;
     background-image: url(./assets/61.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 .izqCont {
     width: 45%;
@@ -226,6 +230,48 @@ audio::-webkit-media-controls-play-button,
 .izqCont img {
     width: 80%;
 }
+.derCont {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.textCont1{
+    margin-bottom: 15px;
+}
+.textCont2{
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    font-weight: normal;
+}
+.textCont3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.textCont4{
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+.boton1 {
+    width: 130px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: var(--light-color1);
+    border: 1px solid var(--color1);
+    color: #53403A;
+    box-shadow: 3px 3px 10px 0px #D9BD8B;
+    margin-bottom: 15px;
+}
+.boton1:hover{
+    border: 1px solid var(--color1a);
+    background-color: var(--color1);
+    color: var(--color1a);
+}
+
 /* BREAK POINTS */
 
 @media only screen and (max-width: 768px) {
@@ -283,4 +329,21 @@ audio::-webkit-media-controls-play-button,
         font-size: 21px;
     }
 
+    /*SECCION RELOJ*/
+    .seccionReloj {
+        flex-direction: column;
+        background-image: url(./assets/61a.png);
+        background-position: center;
+    }
+    .izqCont {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .derCont {
+        width: 90%;
+        padding-top: 10px;
+    }
 }
