@@ -294,7 +294,7 @@ audio::-webkit-media-controls-play-button,
 
 /* HIJOS */
 .padres {
-    width: 1200px;
+    max-width: 1200px;
     height: auto;
     background-image: url(./assets/60.png);
     margin: 0 auto;
@@ -303,6 +303,9 @@ audio::-webkit-media-controls-play-button,
     flex-direction: column;
     justify-content: center;
     align-content: center;
+}
+.padresTexto{
+    margin-bottom: 10px;
 }
 .padresNombres {
     font-family: 'Alice', serif;
@@ -389,5 +392,17 @@ audio::-webkit-media-controls-play-button,
     .derCont {
         width: 90%;
         padding-top: 10px;
+    }
+
+    /* PADRES */
+    .padres {
+        width: 100vw;
+        overflow: hidden;
+        padding: 30px 10px;
+    }
+    .padres img {
+        width: 200px;
+        height: 120px;
+
     }
 }
