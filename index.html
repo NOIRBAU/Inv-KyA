@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="./assets/favicon.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Arizonia&family=Hepta+Slab&family=Montserrat:wght@300;400&family=Rancho&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -40,15 +40,41 @@
             </ul>
         </div>
     </header>
-    <div class="portada" id="home">
+    <section class="portada" id="home">
+        <div class="portada__coverNav"></div>
         <div class="portada__fondo">
             <div class="portada__fondo1">
                 <div class="portada__fondo2">
-                    <div class="portada__fondo2-texto"></div>
+                    <div class="portada__fondo2-texto">
+                        <h1 class="portadaNombre">Karina & Alejandro</h1>
+                        <img class="divider" src="./assets/divider.png">
+                        <h2 class="textWhite portadaFecha">17.02.2024</h2>
+                    </div>
                 </div>
             </div>
-
         </div>
-    </div>
+    </section>
+
+    <script>
+        const iconoMenu = document.querySelector('.icono__menu')
+        const iconoMenuB = document.querySelector('.icono__menu i')
+        const menuLateral = document.querySelector('.menu__lateral')
+        
+        iconoMenu.onclick = function () {
+            menuLateral.classList.toggle('abierto')
+            const isOpen = menuLateral.classList.contains('abierto')
+        
+            iconoMenuB.classList = isOpen
+             ? 'fa-solid fa-xmark'
+             : 'fa-solid fa-bars'
+        }
+    </script>
+    <script src="contador.js"></script> 
+    <script src="scroll.js"></script>
+    <script src="https://kit.fontawesome.com/caec77cea8.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
