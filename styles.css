@@ -1,0 +1,153 @@
+:root {
+    --light-color1: #F7F0DE;
+    --color1: #D9BD8B;
+    --color1a: rgb(124, 98, 159);
+    --color2: rgb(162, 171, 108);
+    --color3: rgb(94,85,94);
+    --dark-color: #371F76;
+    --black: #1c1c1c;
+    --white-color: #fbfcfc;
+}
+/*GENÉRICOS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+}
+body {
+    min-height: 100vh;
+    background-color: var(--light-color1);
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/* NAVEGACIÓN */
+header {
+    position: fixed;
+    display: fixed;
+    z-index: 10;
+    width: 100%;
+}
+header::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(30px);
+    z-index: -1;
+}
+.navbar {
+    height: 80px;
+    max-width: 1200px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.navbar .logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 15px;
+}
+.navbar a {
+    font-size: 20px;
+    color: var(--white-color);
+}
+.navbar a:hover{
+    font-size: 22px;
+    color: var(--color1);
+}
+.icono__menu {
+    display: none;
+}
+
+/* MENU LATERAL*/
+.menu__lateral {
+    display: none;
+    position: absolute;
+    height: 0px;
+    top: 80px;
+    right: 0rem;
+    width: 70%;
+    background: rgba(0, 0, 0, .1);  
+    backdrop-filter: blur(30px);
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+}
+.menu__lateral.abierto{
+    height: 250px;
+}
+.menu__lateral ul {
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    margin: auto 0;
+}
+.menu__lateral li {
+    margin: 5px 0;
+}
+.menu__lateral ul a {
+    color: var(--white-color);
+    font-size: 20px;
+}
+.icono {
+    width: 70%;
+}
+/* PORTADA */
+.portada {
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.portada__fondo {
+    max-width: 1200px;
+    height: 100%;
+    background-image: url(./assets/corcho.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+.portada__fondo1 {
+    max-width: 1200px;
+    height: 100%;
+    background-image: url(./assets/foto1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+.portada__fondo2 {
+    max-width: 1200px;
+    height: 100%;
+    background-image: url(./assets/portadaFlores.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.portada__fondo2-texto {
+    display: flex;
+    justify-content: end;
+}
