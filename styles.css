@@ -45,6 +45,10 @@ h2 {
 .textWhite {
     color: var(--white-color);
 }
+h3 {
+    color: var(--color1a);
+    font-weight: normal;
+}
 h5{
     font-family: 'Arizonia', cursive;
     text-align: center;
