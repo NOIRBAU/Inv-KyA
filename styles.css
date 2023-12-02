@@ -2,7 +2,7 @@
     --light-color1: #F7F0DE;
     --color1: #D9BD8B;
     --color1a: #53403A;
-    --color2: rgb(162, 171, 108);
+    --color2: #F4E5D2;
     --color3: rgb(94,85,94);
     --dark-color: #371F76;
     --black: #1c1c1c;
@@ -582,6 +582,44 @@ audio::-webkit-media-controls-play-button,
     align-content: center;
 }
 
+/* AGRADECIMIENTOS */
+.agradecimiento {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--color2);
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+.agradecimiento img {
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+.elaboracion {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 30px 10px;
+    margin: 0 auto;
+}
+.elaboracion a {
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+.elaboracion img {
+    width: 70px;
+}
 
 
 
@@ -811,7 +849,9 @@ audio::-webkit-media-controls-play-button,
         font-size: 26px;
     }
     .asistenciaContenedores {
+        flex-direction: column;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     .asistenciaContenedores .boton1 {
         width: 100px;
@@ -820,9 +860,20 @@ audio::-webkit-media-controls-play-button,
     .asistenciaContenedores a {
         margin: 0 auto;
     }
+    .derCont__asistencia {
+        margin-top: 15px;
+    }
 
     /* RELLENO3 */
     .relleno3 {
         background-position: 55%;
+    }
+
+    /* AGRADECIMIENTO */
+    .agradecimiento h5 {
+        font-size: 25px;
+    }
+    .agradecimiento img {
+        width: 40%;
     }
 }
