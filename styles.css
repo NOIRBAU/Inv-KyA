@@ -808,15 +808,21 @@ audio::-webkit-media-controls-play-button,
 
     /* ASISTENCIA */
     .rellenoAsistencia h5 {
-        font-size: 36px;
+        font-size: 26px;
     }
     .asistenciaContenedores {
         justify-content: space-between;
     }
     .asistenciaContenedores .boton1 {
-        width: 110px;
+        width: 100px;
         margin: 0 auto;
     }
     .asistenciaContenedores a {
         margin: 0 auto;
     }
+
+    /* RELLENO3 */
+    .relleno3 {
+        background-position: 55%;
+    }
+}
