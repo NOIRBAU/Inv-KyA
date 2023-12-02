@@ -712,6 +712,9 @@ audio::-webkit-media-controls-play-button,
     }
     
     /* PORTADA */
+    .portada {
+        height: 92vh;
+    }
     .portada__fondo {
         width: 100%;
         height: 100vh;
