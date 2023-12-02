@@ -480,6 +480,27 @@ audio::-webkit-media-controls-play-button,
     margin: 0 auto;
 }
 
+/* LIBRO FIRMAS */
+.libroFirmas {
+    max-width: 1200px;
+    background-image: url(./assets/60.png);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 30px 10px;
+    margin: 0 auto;
+}
+.libroFirmas img {
+    width: 20%;
+    margin-bottom: 10px;
+}
+.libroFirmas p {
+    margin-bottom: 15px;
+}
+
 /* RELLENO2 */
 .relleno2 {
     max-width: 1200px;
@@ -510,9 +531,56 @@ audio::-webkit-media-controls-play-button,
     margin: 0 auto;
 }
 
-
-
-
+/* ASISTENCIA */
+.asistencia {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/62.png);
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: 50px 10px;
+    margin: 0 auto;
+}
+.rellenoAsistencia {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url(./assets/60.png);
+    padding: 20px 10px;
+}
+.asistencia p {
+    margin-bottom: 10px;
+}
+.asistencia h3 {
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.asistenciaContenedores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.izqCont__asistencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.derCont__asistencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
 
 
 
@@ -577,7 +645,7 @@ audio::-webkit-media-controls-play-button,
 
 
 
-  
+
 
 
 
@@ -732,4 +800,23 @@ audio::-webkit-media-controls-play-button,
     .modalInfo h2 {
         font-size: 22px;
     }
-}
+
+    /* LIBRO FIRMAS */
+    .libroFirmas img {
+        width: 30%;
+    }
+
+    /* ASISTENCIA */
+    .rellenoAsistencia h5 {
+        font-size: 36px;
+    }
+    .asistenciaContenedores {
+        justify-content: space-between;
+    }
+    .asistenciaContenedores .boton1 {
+        width: 110px;
+        margin: 0 auto;
+    }
+    .asistenciaContenedores a {
+        margin: 0 auto;
+    }
