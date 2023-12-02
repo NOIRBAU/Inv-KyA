@@ -329,7 +329,6 @@ audio::-webkit-media-controls-play-button,
 }
 
 /* ITINERARIO */
-
 .itinerario {
     max-width: 1200px;
     height: auto;
@@ -399,6 +398,29 @@ audio::-webkit-media-controls-play-button,
     margin: 7px 0 12px 0;
 }
 
+/* PUNTUALIDAD */
+.puntualidad {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/60.png);
+    background-attachment: fixed;
+    padding: 35px 10px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.puntualidad img {
+    width: 300px;
+    height: 300px;
+    margin: 10px 0 20px 0;
+}
+.puntualidadHora {
+    font-family: 'Alice', serif;
+    font-size: 40px;font-weight: normal;
+    margin: 10px 0 15px;
+}
 
 
 
@@ -519,5 +541,14 @@ audio::-webkit-media-controls-play-button,
     }
     .infoTexto4 {
         font-size: 22px;
+    }
+    
+    /* PUNTUALIDAD */
+    .puntualidad img {
+        width: 200px;
+        height: 200px;
+    }
+    .puntualidadHora {
+        font-size: 30px;
     }
 }
