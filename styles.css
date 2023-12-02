@@ -667,7 +667,7 @@ audio::-webkit-media-controls-play-button,
     margin: 25% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 5px solid var(--light-color1);
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 70%; /* Could be more or less, depending on screen size */
   }
   .close {
     color: #aaa;
