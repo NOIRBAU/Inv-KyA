@@ -45,6 +45,14 @@ h2 {
 .textWhite {
     color: var(--white-color);
 }
+h5{
+    font-family: 'Arizonia', cursive;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    color: var(--color1a);
+    margin-bottom: 10px;
+}
 
 /* NAVEGACIÓN */
 header {
@@ -297,6 +305,7 @@ audio::-webkit-media-controls-play-button,
     max-width: 1200px;
     height: auto;
     background-image: url(./assets/60.png);
+    background-attachment: fixed;
     margin: 0 auto;
     padding: 40px 20px 20px 20px;
     display: flex;
@@ -318,6 +327,25 @@ audio::-webkit-media-controls-play-button,
     height: 170px;
     margin: 0 auto;
 }
+
+/* ITINERARIO */
+
+.itinerario {
+    max-width: 1200px;
+    height: auto;
+    background-image: url(./assets/61.png);
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
 /* BREAK POINTS */
 
 @media only screen and (max-width: 768px) {
