@@ -890,4 +890,18 @@ audio::-webkit-media-controls-play-button,
     .elaboracion {
         padding: 20px 10px 40px 10px;
     }
+
+    /* RELLENO */
+    .relleno1 {
+        height: 300px;
+        background-position: top left;
+    }
+    .relleno2 {
+        height: 300px;
+        background-position: top center;
+    }
+    .relleno3 {
+        height: 300px;
+        background-position: top center;
+    }
 }
