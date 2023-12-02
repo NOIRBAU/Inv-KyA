@@ -752,6 +752,7 @@ audio::-webkit-media-controls-play-button,
 
     /*SECCION RELOJ*/
     .seccionReloj {
+        width: 100vw;
         flex-direction: column;
         background-image: url(./assets/61a.png);
         background-position: center;
