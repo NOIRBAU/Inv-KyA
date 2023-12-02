@@ -433,4 +433,10 @@ audio::-webkit-media-controls-play-button,
         height: 120px;
 
     }
+    
+    /* ITINERARIO */
+    .itinerario {
+        background-image: url(./assets/61a.png);
+        background-size: cover;
+    }
 }
