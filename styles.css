@@ -636,7 +636,7 @@ audio::-webkit-media-controls-play-button,
 
 
 .modal {
-    display: hidden; 
+    display: none; 
     position: fixed; 
     z-index: 1; 
     left: 0;
