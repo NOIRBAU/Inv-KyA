@@ -108,9 +108,8 @@
 .goTop__button {
     width: 0rem;
     height: 0rem;
-    background: var(--green-color1);
     opacity: .5;
-    box-shadow:  0 0 .7em var(--color1a);
+    box-shadow:  0 0 .7em #53403A;
     border-radius: 50%;
     cursor: pointer;
     transition: .2s;
