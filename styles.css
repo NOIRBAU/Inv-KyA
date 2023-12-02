@@ -208,6 +208,7 @@ header::before {
     background-image: url(./assets/62.png);
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 audio {
     margin: 0 auto;
@@ -231,6 +232,7 @@ audio::-webkit-media-controls-play-button,
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    overflow: hidden;
 }
 .izqCont {
     width: 45%;
@@ -290,6 +292,7 @@ audio::-webkit-media-controls-play-button,
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .textoFrase {
     color: #fbfcfc;
@@ -312,6 +315,7 @@ audio::-webkit-media-controls-play-button,
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    overflow: hidden;
 }
 .padresTexto{
     margin-bottom: 10px;
@@ -335,6 +339,7 @@ audio::-webkit-media-controls-play-button,
     background-image: url(./assets/61.png);
     padding: 30px 0;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /* LUGAR */
