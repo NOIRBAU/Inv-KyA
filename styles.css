@@ -422,7 +422,36 @@ audio::-webkit-media-controls-play-button,
     margin: 10px 0 15px;
 }
 
+/* REGALOS */
+.regaloFondo1 {
+    max-width: 1200px;
+    background-image: url(./assets/61.png);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
+/* RELLENO1 */
+.relleno1 {
+    max-width: 1200px;
+    height: 700px;
+    background-image: url(./assets/relleno1.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+/* RELLENO2 */
+.relleno2 {
+    max-width: 1200px;
+    height: 700px;
+    background-image: url(./assets/relleno2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
 
 /* BREAK POINTS */
 
@@ -544,6 +573,9 @@ audio::-webkit-media-controls-play-button,
     }
     
     /* PUNTUALIDAD */
+    .puntualidad {
+        width: 100%;
+    }
     .puntualidad img {
         width: 200px;
         height: 200px;
