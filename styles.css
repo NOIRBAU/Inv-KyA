@@ -888,6 +888,7 @@ audio::-webkit-media-controls-play-button,
     }
     .agradecimiento h5 {
         font-size: 25px;
+        margin-bottom: 20px;
     }
     .agradecimiento img {
         width: 40%;
