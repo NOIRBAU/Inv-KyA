@@ -15,7 +15,36 @@
 </head>
 
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home"><img src="./assets/K&A.png" alt="logo"></a>
+            </div>            
+            <ul>
+                <li><a href="#home">INICIO</a></li>
+                <li><a href="#calendario">CUÁNDO</a></li>
+                <li><a href="#itinerario">ITINERARIO</a></li>
+                <li><a href="#donde">DÓNDE</a></li>
+                <li><a href="#indicaciones">REGALO SUGERIDO</a></li>
+                <li><a href="#deseos">BUENOS DESEOS</a></li>
+                <li><a href="#asistencia">ASISTENCIA</a></li>
+            </ul>
+            <div class="icono__menu">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </div>
+        </nav>
+        <div class="menu__lateral">
+            <ul>
+                <li><a href="#home">INICIO</a></li>
+                <li><a href="#calendario">CUÁNDO</a></li>
+                <li><a href="#itinerario">ITINERARIO</a></li>
+                <li><a href="#donde">DÓNDE</a></li>
+                <li><a href="#indicaciones">REGALO SUGERIDO</a></li>
+                <li><a href="#deseos">BUENOS DESEOS</a></li>
+                <li><a href="#asistencia">ASISTENCIA</a></li>
+            </ul>
+        </div>
+    </header>
     
     <section class="portada" id="home">
         <div class="portada__coverNav"></div>
@@ -136,14 +165,14 @@
         <p class="puntualidadHora">19:00 hrs.</p>
         <a href="https://evt.to/asimaigaw" target="_blank"><button class="boton1">AGENDAR</button></a>
     </section>
-    <section class="regalo">
+    <section class="regalo" id="indicaciones">
         <div class="regaloFondo1">
             <img class="adornoFlores" src="./assets/38.png">
             <h5>Regalo Sugerido</h5>
             <p>Su presencia es nuestro mejor regalo, pero si desean hacernos un obsequio, ponemos a sus disposición nuestras sugerencias:</p>
             <div class="regalosContenedor">
                 <div class="izqCont_regalos">
-                    <img class="icono" id="indicaciones" src="./assets/icons8-sobre-de-amor-100.png">
+                    <img class="icono" src="./assets/icons8-sobre-de-amor-100.png">
                     <h3>Lluvia de Sobres</h3>                    
                     <button class="boton1" id="myBtn">+INFORMACIÓN</button>
                     <div id="myModal" class="modal">
@@ -170,9 +199,9 @@
     <section class="frase">
         <p class="textoFrase">"Compartir estos momentos con ustedes los hace inolvidables."</p>
     </section>
-    <section class="libroFirmas">
+    <section class="libroFirmas" id="deseos">
         <h5>Libro de Firmas</h5>
-        <img id="deseos" src="./assets/NOTEBOOK.png">
+        <img src="./assets/NOTEBOOK.png">
         <p>Déjanos tus consejos y buenos deseos. No son obligatorios pero, nos causa mucha ilusión leerlos.</p>
         <a href="https://forms.gle/cQnP3T4vmAhbsEpr7" target="_blank"><button class="boton1">ENVIAR</button></a>
     </section>
@@ -180,13 +209,13 @@
         <p class="textoFrase">"A veces lo que empieza como una locura se convierte en lo mejor de tu vida."</p>
     </section>
     <div class="relleno2"></div>
-    <section class="asistencia">
+    <section class="asistencia" id="asistencia">
         <div class="rellenoAsistencia">
             <h5>Confirma tu asistencia</h5>
             <p>Te agradecemos que confirmes tu asistencia lo más pronto posible, para hacerlo da click en los siguientes botones.</p>
             <div class="asistenciaContenedores">
                 <div class="izqCont__asistencia">
-                    <h3 id="asistencia">WhatsApp de Karina</h3>
+                    <h3>WhatsApp de Karina</h3>
                     <a href="https://api.whatsapp.com/send?phone=+542235358271&text=%C2%A1Hola!%20Buen%20d%C3%ADa,%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Karina%20y%20Alejandro.%20Mi%20nombre%20es:%20(nombre)%20e%20iremos%20(n%C3%BAm)%20personas." target="_blank"><button class="boton1">CONFIRMAR</button></a>
                 </div>
                 <div class="derCont__asistencia">
